@@ -1,7 +1,3 @@
-################################
-# Create Storage Bucket - Main #
-################################
-
 # Create VM
 resource "google_service_account" "default" {
   account_id   = "project-id-VM-manager"
